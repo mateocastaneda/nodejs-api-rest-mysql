@@ -1,7 +1,10 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const dotenv = require("dotenv");
 const apiRouter = require("./app/routes/api");
 
+/* entorno de inicio */
+dotenv.config();
 const app = express();
 
 /* analizar solicitudes de tipo de contenido: application/json */
@@ -19,7 +22,7 @@ app.get("/", (req, res) => {
 app.use("/api", apiRouter);
 
 /* arrancamos el servidor */
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log("Server is running.");
 });
 
