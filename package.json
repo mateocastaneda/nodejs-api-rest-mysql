@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-api-rest-mysql",
+  "version": "1.0.0",
+  "description": "nodejs-api-rest-mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app/index.js"
+  },
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "dotenv": "9.0.2",
+    "express": "4.17.1",
+    "mysql": "2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
