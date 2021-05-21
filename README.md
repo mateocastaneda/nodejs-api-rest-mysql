@@ -1,6 +1,6 @@
 # CRUD Usuarios APP
 
-### dependencies:
+### Dependencies:
 
 - body-parser
 - dotenv
@@ -12,7 +12,7 @@
 ```bash
 # Install dependencies
 $ npm install
-
+ 
 # Database
 $ node_crud.sql
 
