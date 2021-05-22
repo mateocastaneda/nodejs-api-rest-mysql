@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const dotenv = require("dotenv");
-const cors = require(cors);
+const cors = require("cors");
 const apiRouter = require("./app/routes/api");
 
 /* entorno de inicio */
