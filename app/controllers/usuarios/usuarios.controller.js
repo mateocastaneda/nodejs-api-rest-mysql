@@ -7,7 +7,7 @@ exports.findAll = (req, res) => {
         message: err.message || "Some error occurred while retrieving usuarios."
       });
     } else {
-      res.send(JSON.parse(data));
+      res.json({ data });
     }
   });
 };
