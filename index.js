@@ -1,11 +1,13 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const dotenv = require("dotenv");
+const cors = require(cors);
 const apiRouter = require("./app/routes/api");
 
 /* entorno de inicio */
 dotenv.config();
 const app = express();
+app.use(cors());
 
 /* analizar solicitudes de tipo de contenido: application/json */
 app.use(bodyParser.json());

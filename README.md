@@ -1,4 +1,4 @@
-# CRUD Usuarios APP
+# CRUD Notas APP
 
 ### Dependencies:
 
@@ -23,7 +23,7 @@ App Run On: http://localhost:3000
 
 ```
 
-### Test the Usuarios APP
+### Test the Notas APP
 
 ```bash
 Server is running on port 3000.
